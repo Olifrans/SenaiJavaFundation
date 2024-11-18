@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="MyWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class MyWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake,524,39)" expression-java="addObject(cupcake, 524, 39)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake2" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake2,496,133)" expression-java="addObject(cupcake2, 496, 133)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake3" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake3,503,273)" expression-java="addObject(cupcake3, 503, 273)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake4" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake4,372,230)" expression-java="addObject(cupcake4, 372, 230)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake5" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake5,385,101)" expression-java="addObject(cupcake5, 385, 101)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake6" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake6,92,334)" expression-java="addObject(cupcake6, 92, 334)" enable="true"/>
+                <call expression="cupcake4.setLocation(180,281)" expression-java="cupcake4.setLocation(180, 281)" enable="true"/>
+                <call expression="cupcake3.setLocation(316,316)" expression-java="cupcake3.setLocation(316, 316)" enable="true"/>
+                <call expression="cupcake5.setLocation(308,189)" expression-java="cupcake5.setLocation(308, 189)" enable="true"/>
+                <call expression="cupcake2.setLocation(558,365)" expression-java="cupcake2.setLocation(558, 365)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake7" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake7,494,133)" expression-java="addObject(cupcake7, 494, 133)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake8" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake8,446,224)" expression-java="addObject(cupcake8, 446, 224)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake9" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake9,92,38)" expression-java="addObject(cupcake9, 92, 38)" enable="true"/>
+                <call expression="cupcake6.setLocation(68,340)" expression-java="cupcake6.setLocation(68, 340)" enable="true"/>
+                <call expression="cupcake4.setLocation(180,268)" expression-java="cupcake4.setLocation(180, 268)" enable="true"/>
+                <call expression="cupcake5.setLocation(288,167)" expression-java="cupcake5.setLocation(288, 167)" enable="true"/>
+                <call expression="cupcake5.setLocation(110,168)" expression-java="cupcake5.setLocation(110, 168)" enable="true"/>
+                <call expression="cupcake7.setLocation(324,95)" expression-java="cupcake7.setLocation(324, 95)" enable="true"/>
+                <call expression="cupcake5.setLocation(186,150)" expression-java="cupcake5.setLocation(186, 150)" enable="true"/>
+                <variable type="Cupcake" type-java="Cupcake" name="cupcake10" value="new Cupcake()" value-java=" new Cupcake()" enable="true"/>
+                <call expression="addObject(cupcake10,528,148)" expression-java="addObject(cupcake10, 528, 148)" enable="true"/>
+                <variable type="Morte" type-java="Morte" name="morte" value="new Morte()" value-java=" new Morte()" enable="true"/>
+                <call expression="addObject(morte,420,45)" expression-java="addObject(morte, 420, 45)" enable="true"/>
+                <variable type="Morte" type-java="Morte" name="morte2" value="new Morte()" value-java=" new Morte()" enable="true"/>
+                <call expression="addObject(morte2,239,323)" expression-java="addObject(morte2, 239, 323)" enable="true"/>
+                <variable type="Morte" type-java="Morte" name="morte3" value="new Morte()" value-java=" new Morte()" enable="true"/>
+                <call expression="addObject(morte3,454,321)" expression-java="addObject(morte3, 454, 321)" enable="true"/>
+                <variable type="Morte" type-java="Morte" name="morte4" value="new Morte()" value-java=" new Morte()" enable="true"/>
+                <call expression="addObject(morte4,187,59)" expression-java="addObject(morte4, 187, 59)" enable="true"/>
+                <variable type="formiga" type-java="formiga" name="formiga" value="new formiga()" value-java=" new formiga()" enable="true"/>
+                <call expression="addObject(formiga,36,198)" expression-java="addObject(formiga, 36, 198)" enable="true"/>
+                <call expression="removeObject(morte4)" expression-java="removeObject(morte4)" enable="true"/>
+                <call expression="formiga.setLocation(38,344)" expression-java="formiga.setLocation(38, 344)" enable="true"/>
+                <call expression="cupcake6.setLocation(36,224)" expression-java="cupcake6.setLocation(36, 224)" enable="true"/>
+                <call expression="cupcake5.setLocation(236,190)" expression-java="cupcake5.setLocation(236, 190)" enable="true"/>
+                <call expression="cupcake7.setLocation(288,65)" expression-java="cupcake7.setLocation(288, 65)" enable="true"/>
+                <call expression="cupcake5.setLocation(336,225)" expression-java="cupcake5.setLocation(336, 225)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
