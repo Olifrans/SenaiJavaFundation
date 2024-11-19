@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Formiga extends Actor
 {
-    private int qty =0;
+    private int qty = 0;
     
     /**
      * Act - do whatever the Formiga wants to do. This method is called whenever
